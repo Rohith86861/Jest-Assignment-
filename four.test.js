@@ -3,7 +3,7 @@ const four = require('./four');
 
 //passed Test case
 test('returnBookDataById', () => {
-    expect(four.returnBookDataById(1)).toEqual({bookId: 1, bookname: 'Harry potter', author:"J. K. Rowling", cost:500});
+    expect(four.returnBookDataById(1)).toEqual({bookId: 1, bookname: 'book1', author:"author1", cost:400});
 });
 
 
